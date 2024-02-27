@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nishnat</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="/logo.jpg" type="image/x-icon" />
+  </head>
+  <body class="bg-dark">
+    <nav
+      class="navbar navbar-expand-lg bg-dark shadow border border-top-0 border-start-0 border-info text-light"
+    >
+      <div class="container-fluid d-flex justify-content-between">
+        <img src="/logo.jpg" alt="Logo" class="rounded-circle" srcset="" />
+        <h1 class="navbar-brand m-2 text-light">Nishant</h1>
+        <button
+          class="navbar-toggler border-white"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="buttons collapse navbar-collapse"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item text-center text-light m-2">
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item text-center text-light m-2">
+              <a class="nav-link" href="#about_me">About Me</a>
+            </li>
+            <li class="nav-item text-center text-light m-2">
+              <a class="nav-link" aria-current="page" href="#skills"
+                >My Skills</a
+              >
+            </li>
+            <li class="nav-item text-center text-light m-2">
+              <a class="nav-link" aria-current="page" href="#contact-me"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      id="home"
+      class="slider justify-content-center d-flex align-content-center m-3 p-2 rounded"
+    >
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner shadow-lg">
+          <div class="carousel-item active">
+            <img src="/img_1.jpg" class="d-block w-100 rounded-3" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="/img_2.jpg" class="d-block w-100 rounded-3" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="/img_3.jpg" class="d-block w-100 rounded-3" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div id="about_me" class="about_me text-light">
+      <h1 class="text-center p-3 m-3">About Me</h1>
+      <div class="about_me_info justify-content-center align-items-center">
+        <div class="img p-2 m-3">
+          <img
+            src="/img_4.jpg"
+            alt=""
+            srcset=""
+            class="img-fluid img-thumbnail"
+          />
+        </div>
+        <div class="info">
+          <p class="text-center h3">
+            Hello! I'm Nishant Patil, a passionate web developer based in
+            Mumbai, India. I specialize in creating interactive, responsive, and
+            user-friendly websites using the latest web technologies. I have a
+            deep understanding of HTML5, CSS3, JavaScript, and modern JavaScript
+            frameworks like React.js.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="skills" class="myskills text-center m-4 p-4 text-light">
+      <h1 class="p-3 m-4">My Skills</h1>
+      <div
+        class="main shadow-lg border border-top-0 border-start-0 border-info rounded-3 mb-4 text-light row"
+      >
+        <h3>Basic Skills</h3>
+        <div class="skill col">HTML:5</div>
+        <div class="skill col">JavaScript</div>
+        <div class="skill col">CSS</div>
+      </div>
+      <div
+        class="frameworks border border-top-0 border-start-0 border-info rounded-3 shadow-lg mb-4 text-light row"
+      >
+        <h3>Frameworks</h3>
+        <div class="skill col">React Js</div>
+        <div class="skill col">Bootstrap:5</div>
+        <div class="skill col">Tailwind Css</div>
+      </div>
+      <div
+        class="databae border border-top-0 border-start-0 border-info rounded-3 shadow-lg mb-4 text-light"
+      >
+        <h3>DataBases</h3>
+
+        <div class="skill">FireBase</div>
+      </div>
+    </div>
+
+    <div id="contact-me" class="contact-me row text-white text-center m-3">
+      <h1>Contact Me</h1>
+      <div
+        class="col info d-flex flex-column align-items-center justify-content-center m-3 shadow-lg rounded-4 border border-info border-top-0 border-start-0"
+      >
+        <h2>Here's My Contact Info</h2>
+        <h2 class="m-3">My Email</h2>
+        <a
+          href="mailto:nishantpatil0121@gmail.com"
+          class="text-light text-decoration-none fs-3"
+          >nishantpatil0121@gmail.com</a
+        >
+      </div>
+      <div
+        class="col m-3 p-3 shadow-lg rounded-4 border border-info border-top-0 border-start-0"
+      >
+        <h2>You Can fill Your details here</h2>
+        <form name="submit-to-google-sheet">
+          <div class="mb-3">
+            <label for="exampleInputName" class="form-label fs-4"
+              >Your Name</label
+            >
+            <input
+              type="text"
+              name="Name"
+              class="form-control"
+              id="exampleInputName"
+              aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text">
+              We'll never share your email with anyone else.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputName" class="form-label fs-4"
+              >Email address</label
+            >
+            <input
+              type="email"
+              name="Email"
+              class="form-control"
+              id="exampleInputName"
+              aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text">
+              We'll never share your email with anyone else.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label fs-3"
+              >Write a Messge Here</label
+            >
+            <textarea
+              class="form-control"
+              name="Message"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary fs-3">
+            Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzXjGzfg6zBa6iZsXn1KjSTKEdPkKNN0-BTDG4RN644zN1PFGEGXzbp60HK55kqw3pllA/exec";
+      const form = document.forms["submit-to-google-sheet"];
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            console.log("Success!", response);
+            form.reset(); // Clear the form fields after successful submission
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
